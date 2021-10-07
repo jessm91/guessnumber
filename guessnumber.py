@@ -1,5 +1,4 @@
 from random import randint
-from random import choice
 
 """Generate random number between 1 and 10"""
 numb = randint(1, 10)
@@ -10,7 +9,7 @@ while True:
 
     if guess == 'q':
         break
-        
+
     guess = int(guess)
 
     if numb == guess:
